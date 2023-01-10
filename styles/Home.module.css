@@ -259,7 +259,7 @@
 		grid-template-columns: repeat(2, 50%);
 	}
 }
-
+/* stylelint-disable selector-class-pattern */
 @media (prefers-color-scheme: dark) {
 	.vercelLogo {
 		filter: invert(1);
