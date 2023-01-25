@@ -1,0 +1,27 @@
+.button {
+	box-sizing: border-box;
+	margin: 0 5px;
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	transition: linear 0.2s;
+}
+
+.primary {
+	color: var(--white);
+	background-color: var(--primary);
+
+	&:hover {
+		background-color: var(--primary-hover);
+	}
+}
+
+.ghost {
+	background-color: var(--white);
+	border: 1px solid var(--grey-ghost);
+
+	&:hover {
+		background-color: var(--grey-ghost);
+	}
+}
