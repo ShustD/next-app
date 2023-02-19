@@ -12,7 +12,7 @@ export default function Home(): JSX.Element {
      <Ptag size="small">Small text</Ptag>
      <Tag size="medium" children='medium href' color="red" href="https://github.com/ShustD" />
      <Tag size="small" children='small' color="primary" />
-     <Tag size="small" children='small' color="primary" />
+     <Tag size="medium" children='medium' color="ghost" />
     </>
   )
 }

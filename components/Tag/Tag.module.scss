@@ -3,31 +3,34 @@
 	margin-right: 5px;
 	border-radius: 20px;
 }
+
 .small {
-	font-size: 14px;
 	padding: 5px 10px;
+	font-size: 14px;
 }
+
 .medium {
-	font-size: 16px;
 	padding: 10px 15px;
+	font-size: 16px;
 }
 
 .red {
-	background: #ff0000;
 	color: var(--white);
+	background: #F00;
 }
+
 .green {
-	background: #80ff80;
-	color: var(--black)
+	color: var(--black);
+	background: #80FF80;
 }
 
 .ghost {
-	background: var(--ghost);
 	color: var(--black);
+	background: var(--ghost);
 	border: 1px solid var(--black);
 }
 
 .primary {
-	background: var(--primary);	
-	color: var(--white)
+	color: var(--white);
+	background: var(--primary);
 }
