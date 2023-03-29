@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { Button, Htag, Ptag, Rating, Tag } from "../components";
 
 
 export default function Home(): JSX.Element {
+  const [rating, setRating] = useState(3)
   return (
     <>
      <Htag tag='h1'>Header</Htag>
@@ -13,7 +15,7 @@ export default function Home(): JSX.Element {
      <Tag size="medium" children='medium href' color="red" href="https://github.com/ShustD" />
      <Tag size="small" children='small' color="primary" />
      <Tag size="medium" children='medium' color="ghost" />
-     <Rating rating={3} isEditable={true} />
+     <Rating rating={rating} isEditable={true} setRating={setRating} />
     </>
   )
 }
